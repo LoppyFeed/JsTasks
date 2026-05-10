@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    width: 350px;
+    margin: 30px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}

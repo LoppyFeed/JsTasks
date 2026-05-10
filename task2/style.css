@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: black;
+}
+
+.page {
+    width: 400px;
+    margin: 30px auto;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.info {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid gray;
+    background: #f2f2f2;
+}
+
+body.dark {
+    background: #222222;
+    color: white;
+}
+
+body.dark input {
+    background: #333333;
+    color: white;
+    border: 1px solid #777777;
+}
+
+body.dark .info {
+    background: #333333;
+    border: 1px solid #777777;
+}
