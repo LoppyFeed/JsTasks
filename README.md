@@ -20,18 +20,3 @@
 
 Откройте файл `index.html` в браузере.
 Для работы нужен интернет, потому что Vue подключен через CDN.
-
-## Как загрузить на GitHub
-
-Создайте пустой репозиторий на GitHub, потом в этой папке выполните команды:
-
-```bash
-git init
-git add .
-git commit -m "add js practice tasks"
-git branch -M main
-git remote add origin ссылка_на_репозиторий
-git push -u origin main
-```
-
-После этого ссылку на репозиторий можно отправить в личный кабинет.
